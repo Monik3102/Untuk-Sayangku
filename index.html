@@ -18,8 +18,7 @@
 <body>
 
   <audio class="song" loop autoplay>
-    <source src="./music/hbd.mpeg">
-    </source>
+    <source src="./music/hbd.mpeg" type="audio/mpeg">
     Your browser isn't invited for super fun audio time.
   </audio>
 
@@ -33,8 +32,8 @@
     </div>
 
     <div class="three">
-      <p>Hari Ini  31 Juli 2024 Ulang Tahun sayang Ke 22 Tahun </p>
-	<p> Behh Dah Tua Aja ya hehehe </p>
+      <p>Hari Ini 31 Juli 2024 Ulang Tahun sayang Ke 22 Tahun </p>
+      <p> Behh Dah Tua Aja ya hehehe </p>
     </div>
 
     <div class="four">
@@ -64,7 +63,10 @@
     </div>
 
     <div class="six">
-      <img src="./img/vd.mp4" alt="profile" class="profile-picture" id="imagePath"/>
+      <video width="640" height="360" controls>
+        <source src="./img/vd.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
 
       <img src="img/hat.svg" alt="hat" class="hat" />
       <div class="wish">
@@ -144,12 +146,4 @@
     <div class="nine">
       <p>Itu Dulu Ya sayang Maaf aku ga bisa buat apa apa ke sayang .</p>
       <p id="replay">Aku Disini Untuk Sayang .</p>
-      <p class="last-smile">:)</p>
-    </div>
-  </div>
-
-</body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-  <script type="application/javascript" src="script/main.js"></script>
-
-</html>
+      <p class="last-smile">:
